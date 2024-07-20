@@ -4,8 +4,6 @@
 
 The Mubawab Real Estate Scraper is a Python-based web scraping tool designed to collect real estate listings from Mubawab, a popular real estate website in Morocco. This tool extracts information such as the listing title, price, neighborhood, image URL, posting URL, property type, size, and number of rooms. The collected data is saved into a CSV file for further analysis and usage.
 
-<img src="featured_img.png" alt="Mubawab Scraper" width="850"/>
-
 ## Features
 
 - **Scrapes Multiple Pages**: Configured to scrape multiple pages of listings automatically (up to 200).
@@ -13,6 +11,8 @@ The Mubawab Real Estate Scraper is a Python-based web scraping tool designed to 
 - **Handles Missing Data**: Incorporates retry logic for missing data to ensure maximum information retrieval.
 - **Randomized Delays**: Uses random delays between requests to avoid getting blocked by the server.
 - **CSV Output**: Saves the scraped data into a CSV file for easy access and analysis.
+
+<img src="featured_img.png" alt="Mubawab Scraper" width="850"/>
 
 ## Project Structure
 
